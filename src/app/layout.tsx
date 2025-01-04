@@ -34,18 +34,18 @@ export default function RootLayout({
       }}
     >
       <html lang="en" suppressHydrationWarning>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
-          <body
-            className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
           >
             {children}
-          </body>
-        </ThemeProvider>
+          </ThemeProvider>
+        </body>
       </html>
     </ClerkProvider>
   );
