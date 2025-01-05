@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Plura
 
-## Getting Started
+Plura is a modern web application built with Next.js, React, and Tailwind CSS. It provides an intuitive user interface and robust backend services to manage agencies, user roles, and permissions. This project leverages Clerk for authentication and Prisma for database operations.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Authentication**: User authentication and management powered by Clerk.
+- **Agency Management**: Create and manage agencies with role-based access control.
+- **Responsive Design**: A fully responsive design using Tailwind CSS.
+- **Dynamic Navigation**: A customizable navigation menu with a theme toggle.
+- **Embla Carousel**: An interactive carousel component for showcasing content.
+- **Radix UI Components**: Utilizes Radix UI components for enhanced accessibility and interactivity.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To set up the project locally, follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clone the repository**:
 
-## Learn More
+   ```bash
+   git clone https://github.com/your-username/plura.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Navigate to the project directory**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   cd plura
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Install dependencies**:
 
-## Deploy on Vercel
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **Set up environment variables**: Create a `.env` file in the root directory and configure your environment variables.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. **Run the development server**:
+
+   ```bash
+   npm run dev
+   ```
+
+6. **Open your browser** and visit `http://localhost:3000` to see the application in action.
+
+## Usage
+
+- **Sign In**: Access the Sign-In page to log in to your account.
+- **Create Agency**: Navigate to the agency creation page to establish a new agency.
+- **Manage Roles**: Administer user roles and permissions within an agency.
+
+## Contributing
+
+We welcome contributions to enhance Plura! If you have suggestions or feature requests, please open an issue or create a pull request.
